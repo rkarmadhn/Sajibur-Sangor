@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FEE2B3;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    animation: fade 0.8s linear 1;
+}
+
+ul{padding: 0;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+h2{
+    font-weight: bold;
+    color: #0F222B;
+}
+
+p{
+    color: #000000;
+    line-height: 25px;
+}
+
+.br-custom{border-radius: 30px;}
+
+.bg-custom{background-color: rgba(168, 54, 24, 0.27);}
+
+.nav-link:hover{color: #FDBC0C;}
+
+nav.show{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FEE2B3;
+    animation: show .5s linear;
+    z-index: 1;
+}
+
+nav.hide{
+    position: sticky;
+    background-color: #FEE2B3;
+    animation: hide .5s linear;
+    z-index: -1;
+}
+
+nav.index{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    animation: index 2s ease;
+    z-index: 1;
+}
+
+span.nav-link{cursor: pointer;}
+
+.form-contact ::placeholder, .btn-submit{color: white;}
+
+
+@media (min-width : 772px) {
+    .p-extra{padding-top: 6rem;}
+    
+    nav button{display: none !important;}
+
+    #myNavbar .container{display: flex; position: relative;}
+
+    .navbar-brand img{
+        width: 100%;
+        height: 40px;
+    }
+    
+    .nav-wrap{
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-link{color: #0F222B; transition: all .5s linear;}
+
+    .notification{
+        position: absolute;
+        bottom: -80%;
+        right: 4%;
+        z-index: 2;
+        background-color: #fff;
+        color: #0F222B;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 12px;
+        animation: fade .5s linear;
+    }
+
+    .btn-notif-close{
+        position: absolute;
+        top: -10%;
+        right: -5%;
+        background-color: #0F222B;
+        border-radius: 100%;
+        box-shadow: 2px 2px 25px #fff;
+        cursor: pointer;
+        animation: fade .5s linear;
+    }
+    
+    .hero-image{
+        width: 1115px;
+        height: 612px;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 40px;
+    }
+    
+    .image-floating{
+        width: 160px;
+        height: 332px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    
+    .floating-start{
+        width: 100px !important;
+        height: 100px !important;
+        top: 2%;
+        left: 3%;
+    }
+    
+    .floating-mid{
+        top: -15%;
+        left: 500px;
+    }
+    
+    .floating-end{
+        width: 100px !important;
+        height: 75px !important;
+        top: 0;
+        right: -2.5%;
+    }
+    
+    .hero-text{
+        width: 412px;
+        position: absolute;
+        top: 110px;
+        left: 40px;
+    }
+    
+    .hero-text h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #0F222B;
+    }
+    
+    .hero-item{
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FEE2B3;
+        border-radius: 10px;
+    }
+    
+    .hero-item p{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 5px 10px;
+    }
+    
+    .hero-item a{
+        background-color: #FDBC0C;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #0F222B;
+        margin: 5px;
+        border-radius: 6px;
+    }
+    
+    .location-text{
+        position: absolute;
+        bottom: 3%;
+        left: 8%;
+    }
+    
+    footer h5{margin-bottom: 1rem;}
+    
+    .footer-list{margin: 1rem 0;}
+    
+    .footer-list a{
+        color: #0F222B;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    
+    form{
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .footer-input{
+        border-radius: 6px;
+        padding: 10px;
+        border: none;
+        width: 200px;
+    }
+    
+    .footer-btn{
+        width: 150px;
+        border-radius: 6px;
+        padding: 10px;
+        border: none;
+        color: #fff;
+        background-color: #0F222B;
+    }
+
+    .form-contact{
+        background-color: rgba(255, 255, 255, 0.27);
+        padding: 1.5rem 1rem;
+        position: absolute;
+        top: 25%;
+        right: 10%;
+        border-radius: 21px;
+        border: 3px solid #fff;
+    }
+
+    #email{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+
+    #pesan{
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 9px;
+    }
+
+    .btn-submit{
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 9px;
+    }
+
+}
+
+@media (max-width : 765px) {
+    #myNavbar .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #myNavbar .container button{
+        border: none;
+        background-color: transparent;
+        border-radius: 6px;
+        padding: 8px;
+        border: 1px solid #fff;
+    }
+
+    .navbar-brand a img{
+        width: 200px;
+        height: 50px;
+    }
+
+    .nav-wrap{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 85vh;
+        top: 65px;
+        left: -100%;
+        background-color: #FEE2B3;
+        z-index: 9999 !important;
+        padding: 1rem 0;
+        transition: all 1s ease;
+    }
+
+    .nav-wrap.active{left: 0;}
+
+    .nav-link{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .btn-hide{display: none;}
+
+    .hide-nav{display: none !important;}
+
+    .show-nav{display: block !important;}
+}
+
+@keyframes show {
+    0%{top: -10%; opacity: 0;}
+    50%{top: -5%; opacity: 0.5;}
+    100%{top: 0; opacity: 1;}
+}
+
+@keyframes hide {
+    0%{top: 0; opacity: 1;}
+    50%{top: -5%; opacity: 0.5s;}
+    100%{top: -10%; opacity: 0;}
+}
+
+@keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes index {
+    0%{ opacity: 0.5; background-color: white;}
+    25%{ opacity: 0.75; background-color: white;}
+    100%{ opacity: 1; background-color: transparent;}
+}

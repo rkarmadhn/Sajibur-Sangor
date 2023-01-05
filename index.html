@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav id="myNavbar">
+      <div class="container align-items-center pt-lg-2 pb-lg-2">
+        <button class="btn-show"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" class="bi bi-chevron-bar-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.146 3.646a.5.5 0 0 0 0 .708L7.793 8l-3.647 3.646a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0zM11.5 1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 .5-.5z"/>
+        </svg></button>
+        <button class="btn-hide"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" class="bi bi-x" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg></button>
+        <div class="navbar-brand m-0">
+          <a href="#"><img src="images/Group 251.png" class="my-2" /></a>
+        </div>
+        <div class="nav-wrap">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#trip">Services</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+        <span class="nav-link icon-notif"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3_8)">
+              <path
+                d="M11 20.9489C11.385 20.94 11.7544 20.7953 12.0429 20.5403C12.3315 20.2853 12.5205 19.9365 12.5767 19.5555H9.36221C9.41995 19.9468 9.61786 20.3039 9.91912 20.5602C10.2204 20.8165 10.6045 20.9546 11 20.9489Z"
+                fill="#0F222B"
+              />
+              <path
+                d="M19.575 18.4139V17.4162L19.5364 17.3821L19.5346 17.3805C18.9116 16.8254 18.3663 16.1889 17.9134 15.488L17.8997 15.4668L17.8882 15.4443C17.3899 14.4699 17.0912 13.4058 17.0097 12.3145L17.0083 12.2959V12.2772V9.26005C17.0067 9.02953 16.9922 8.79936 16.9648 8.57062L19.575 18.4139ZM19.575 18.4139H2.36389V17.4162L2.40248 17.3821L2.40251 17.3822L2.40767 17.3775C3.02134 16.8206 3.55783 16.1842 4.00288 15.4852L4.01555 15.4653L4.02628 15.4443C4.52457 14.4699 4.82323 13.4058 4.90473 12.3145L4.90611 12.2959V12.2772L4.90612 9.25833L4.90611 9.25713C4.90257 7.78293 5.43249 6.35722 6.39803 5.24321C7.36357 4.1292 8.69954 3.40212 10.1593 3.1962L10.5894 3.13552V2.70111V1.90055C10.5894 1.81679 10.6227 1.73645 10.682 1.67722C10.7412 1.61799 10.8215 1.58472 10.9053 1.58472C10.989 1.58472 11.0694 1.61799 11.1286 1.67722C11.1878 1.73645 11.2211 1.81679 11.2211 1.90055V2.67055V3.11041L11.6574 3.16647C12.2064 3.23702 12.7424 3.38363 13.25 3.6017L19.575 18.4139ZM13.25 3.66576L13.25 3.66591V3.6663V3.66666H13.3958C13.4405 3.68731 13.485 3.70851 13.5292 3.73028L13.5605 3.66666L13.25 3.66576Z"
+                stroke="#0F222B"
+              />
+              <path
+                d="M18.4555 6.84445C20.1431 6.84445 21.5111 5.47643 21.5111 3.78889C21.5111 2.10136 20.1431 0.733337 18.4555 0.733337C16.768 0.733337 15.4 2.10136 15.4 3.78889C15.4 5.47643 16.768 6.84445 18.4555 6.84445Z"
+                fill="#4BB604"
+              />
+              <path d="M17.6 2.61849V2.20001H19.0666V5.13335H18.2557V2.61849H17.6Z" fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_3_8">
+                <rect width="22" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </span>
+        <a class="image-profile" onclick="alert('404 Not Found')"><img src="images/Asset 20.png" /></a>
+        <div class="notification d-none">
+          <p>Belum ada Notif</p>
+          <span class="btn-notif-close"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg></span>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div class="container">
+        <div class="hero-image position-relative" style="background-image: url('images/Hero\ Section.png')">
+          <div class="image-floating floating-start" style="background-image: url('images/floating-start.png')"></div>
+          <div class="image-floating floating-mid" style="background-image: url('images/Frame.png')"></div>
+          <div class="image-floating floating-end" style="background-image: url('images/floating-end.png')"></div>
+          <div class="hero-text">
+            <h1>
+              Traveling opens <br />
+              door to creating <br />
+              memories
+            </h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <div class="hero-item">
+              <p>Jakarta, Indonesia.</p>
+              <span></span>
+              <p>02 Jan 2023</p>
+              <a href="#" class="btn">Get Start</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container p-extra">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/OBJECTS.png" width="565" />
+          </div>
+          <div class="col-md-6 px-5">
+            <h2>
+              A life without <br />
+              journeys is one not lived at all
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trip">
+      <div class="container p-extra">
+        <div class="text-center">
+          <h2>Let our experts plan your trip</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3>Popular Places</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4 position-relative">
+            <img src="images/image-group-1.png" alt="" class="br-custom" />
+            <div class="d-flex location-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                />
+              </svg>
+              <h4 style="color: #fff">80 Wood St. Glen Ellyn,IL 60137</h4>
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <img src="images/image-group-2.png" alt="" class="br-custom" />
+            <div class="d-flex location-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                />
+              </svg>
+              <h4 style="color: #fff">515 Jefferson St. Helotes, TX 78023</h4>
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <img src="images/image-group-3.png" alt="" class="br-custom" />
+            <div class="d-flex location-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                />
+              </svg>
+              <h4 style="color: #fff">
+                21 Pineknoll <br />
+                Ave. Greensboro, NC.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container p-extra">
+        <div class="row align-items-center">
+          <div class="col-md-6 px-5">
+            <h2>
+              Make your <br />
+              Hassle-Free travel plans now!
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="images/Fly 1.png" alt="" width="565" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container p-extra position-relative">
+        <img src="images/Rectangle 13.png" style="width: 100%; border-radius: 15px" />
+        <form action="" class="form-contact">
+          <input type="email" name="email" id="email" placeholder="Email" class="bg-custom"><br>
+          <textarea name="pesan" id="pesan" cols="30" rows="5" placeholder="Type Your Message.." class="bg-custom"></textarea><br>
+          <button type="submit" class="bg-custom btn-submit">Send Now</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="p-extra">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="fw-bold">Sajibur <br> <span class="ps-4"> Selangor</span></h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, repudiandae.</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Company</h5>
+            <ul>
+              <li class="footer-list"><a href="">About Us</a></li>
+              <li class="footer-list"><a href="">Careers</a></li>
+              <li class="footer-list"><a href="">Blog</a></li>
+              <li class="footer-list"><a href="">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Resources</h5>
+            <ul>
+              <li class="footer-list"><a href="">Proporsal Template</a></li>
+              <li class="footer-list"><a href="">Invoice Template</a></li>
+              <li class="footer-list"><a href="">Tutorial</a></li>
+              <li class="footer-list"><a href="">How to Write a contract</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Join Our Newsletter</h5>
+            <form action="">
+              <input type="text" class="footer-input" name="" id="" placeholder="Your email address">
+              <button type="submit" class="footer-btn">Subscribe</button>
+            </form>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="container py-3" style="border-top: 1px solid #000;">
+      <p >Copyright @ Rakay 2022. All Rights Reserved.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      const myNavbar = document.getElementById("myNavbar");
+
+      let previousScrollPosition = 0;
+
+      window.addEventListener("scroll", function () {
+        if (previousScrollPosition > this.scrollY) {
+          myNavbar.classList.remove("show");
+          myNavbar.classList.add("hide");
+          myNavbar.classList.remove("index");
+        } else {
+          myNavbar.classList.add("show");
+          myNavbar.classList.remove("hide");
+          myNavbar.classList.remove("index");
+        }
+        
+        if (previousScrollPosition <= 100){
+          myNavbar.classList.remove("show");
+          myNavbar.classList.remove("hide");
+          myNavbar.classList.add("index")
+        }
+
+        previousScrollPosition = this.scrollY;
+      });
+    </script>
+    <script>
+      const menuBtn = document.querySelector('.btn-show');
+      const closeBtn = document.querySelector('.btn-hide');
+      const navWrap = document.querySelector('.nav-wrap');
+      const btnNotif = document.querySelector(".icon-notif");
+      const btnNotifClose = document.querySelector(".btn-notif-close")
+      const notif = document.querySelector(".notification");
+
+      menuBtn.onclick = () => {
+        navWrap.classList.add("active")
+        menuBtn.classList.add("hide-nav");
+        closeBtn.classList.add("show-nav");
+      };
+
+      closeBtn.onclick = () => {
+        navWrap.classList.remove("active")
+        menuBtn.classList.remove('hide-nav');
+        closeBtn.classList.remove('show-nav');
+      };
+
+      btnNotif.onclick = () => {
+        notif.classList.remove("d-none");
+      };
+
+      btnNotifClose.onclick = () => {
+        notif.classList.add("d-none");
+      };
+
+
+    </script>
+  </body>
+</html>
